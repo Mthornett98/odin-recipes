@@ -15,4 +15,7 @@ a:visited {
 
 li{
     list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
 }
+
