@@ -1,7 +1,12 @@
+*{
+    border: 2px solid white;
+}
+
 body{
     font-family: sans-serif;
     color: white;
     background-color: #021b5c;
+    text-align: center;
 }
 
 h1{
@@ -17,9 +22,18 @@ a:visited {
     color: #d0e6f2;
 }
 
+div{
+    padding: 0 auto;
+}
+
 li{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
+    border-block: 5px;
 }
 
+ul.list{
+    padding: 0;
+    margin: 16px auto;
+}
